@@ -264,7 +264,7 @@ export default function Home() {
             kategori
             <select
               onChange={(e) =>
-                setNewProduk({ ...newProduk, image: e.target.value })
+                setNewProduk({ ...newProduk, katagori: e.target.value })
               }
             >
               <option value="kategori">Semua</option>
